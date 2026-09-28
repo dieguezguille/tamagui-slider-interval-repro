@@ -1,0 +1,8 @@
+{
+  "expo": {
+    "name": "tamagui-slider-interval-repro",
+    "slug": "tamagui-slider-interval-repro",
+    "web": { "output": "static" },
+    "plugins": ["expo-router"]
+  }
+}
