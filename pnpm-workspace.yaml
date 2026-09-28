@@ -1,0 +1,2 @@
+patchedDependencies:
+  '@tamagui/slider@2.7.7': patches/@tamagui__slider@2.7.7.patch

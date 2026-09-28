@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  '@tamagui/slider@2.7.7': f38866487df195abff821b17cfaa71e7213d90da6b8a07b0dd742d04b4d3f570
+
 importers:
 
   .:
@@ -5659,7 +5662,7 @@ snapshots:
     transitivePeerDependencies:
       - react-dom
 
-  '@tamagui/slider@2.7.7(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
+  '@tamagui/slider@2.7.7(patch_hash=f38866487df195abff821b17cfaa71e7213d90da6b8a07b0dd742d04b4d3f570)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
     dependencies:
       '@tamagui/compose-refs': 2.7.7(react@19.2.0)
       '@tamagui/constants': 2.7.7(react@19.2.0)
@@ -7725,7 +7728,7 @@ snapshots:
       '@tamagui/separator': 2.7.7(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@tamagui/shapes': 2.7.7(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@tamagui/sheet': 2.7.7(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@tamagui/slider': 2.7.7(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      '@tamagui/slider': 2.7.7(patch_hash=f38866487df195abff821b17cfaa71e7213d90da6b8a07b0dd742d04b4d3f570)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@tamagui/spacer': 2.7.7(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@tamagui/spinner': 2.7.7(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@tamagui/stacks': 2.7.7(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
