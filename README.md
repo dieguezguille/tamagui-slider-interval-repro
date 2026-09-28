@@ -2,7 +2,7 @@
 
 `@tamagui/slider@2.7.7` starts a 1s `setInterval` when the module is evaluated. On the web build nothing guards it, so any Node process that loads the web entry of `tamagui` never exits. The user-facing symptom is `expo export --platform web` with `web.output: "static"`: it prints `Exported: dist` and then hangs forever.
 
-Upstream issue: _link pending_
+Upstream issue: https://github.com/tamagui/tamagui/issues/4235
 
 ## Versions
 
